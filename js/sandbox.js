@@ -1,19 +1,15 @@
-// if statements
-// constage = 25;
+// Create new Date object
+const d = new Date();
+// Store the value of getHours in variable
+let hour = d.getHours();
 
-// if (age > 20){
-//     console.log('you are over 20 years old');
-// }
+console.log(hour);
 
-// const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
-
-// if(ninjas.length > 4);{
-//     console.log("that's a lot of ninjas");
-// }
-
-
-const password = 'p@ss';
-
-if(password.length >= 8){  // Corrected 'lemgth' to 'length'
-    console.log('that password is long enough!');
-} 
+if (hour < 12) {
+// Morning
+} else if (hour < 17) {
+// Afternoon
+}
+else {
+// Night
+}
