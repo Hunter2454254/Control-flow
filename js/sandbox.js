@@ -4,7 +4,7 @@ const d = new Date();
 let hour = d.getHours();
 
 console.log(hour);
-hour = 111;
+hour =1;
 
 
 if (hour < 12) {
