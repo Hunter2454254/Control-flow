@@ -3,6 +3,20 @@ const d = new Date();
 // Store the value of getHours in variable
 let hour = d.getHours();
 
+
+
+// EVENT LISTENERS
+let morningBtn = document.getElementsByClassName('btn')[0];
+let afternoonBtn = document.getElementsByClassName('btn')[1];
+let nightBtn = document.getElementsByClassName('btn')[2];
+console.log(morningBtn,afternoonBtn,nightBtn);
+
+
+
+
+
+
+
 console.log(hour);
 hour =23;
 
@@ -35,7 +49,7 @@ else {
     document.body.style.background = "rgb(255, 245, 245)"; // Set solid background color
 document.body.style.background = "linear-gradient(90deg, rgba(255, 245, 245, 1) 0%, rgba(0, 0, 0, 1) 45%)"; // Set linear gradient
 
-
+ 
 }
 
 
